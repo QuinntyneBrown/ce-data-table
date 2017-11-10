@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Element: Carousel</title>
+    <meta charset="utf-8" />
+    <base href="/">
+    <meta name="viewport"
+          content="user-scalable=no,
+              initial-scale=1,
+              maximum-scale=1,
+              minimum-scale=1,
+              width=device-width,
+              height=device-height,
+              target-densitydpi=device-dpi" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <style>
+        body, html {
+            font-family: Montserrat;
+            margin: 20px 10px;
+            padding: 0;
+            background-color: rgb(241,241,241);
+            
+        }
+
+        p {
+            line-height:1.15em;
+        }
+
+        h1 {
+            margin:0;
+            padding:0;
+            display:block;
+            line-height:1.25em;
+
+        }
+
+        h1, p {
+            margin: 20px 0px 0px 20px;
+            font-size:1em;
+        }
+
+        ce-carousel-item {
+            background-color:#fff;
+        }
+
+    </style>
+</head>
+<body>
+    <ce-carousel carousel-height="400px" carousel-width="750px">                
+        <ce-carousel-container>                    
+            <ce-carousel-item>     
+                <h1>Quinntyne Brown</h1>
+                <p>Daddy</p>
+            </ce-carousel-item>
+            <ce-carousel-item>
+                <h1>Olivia Mitchell-Brown</h1>
+                <p>Baby</p>
+            </ce-carousel-item>
+        </ce-carousel-container>  
+    </ce-carousel>
+
+    <script src="dist/ce-carousel.js?v=1"></script>    
+</body>
+</html>
