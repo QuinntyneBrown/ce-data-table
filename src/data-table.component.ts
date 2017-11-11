@@ -1,5 +1,8 @@
 import { CollectionViewer } from "./collection-viewer";
 import { render, html, TemplateResult } from "lit-html";
+import "./cell.component";
+import "./column.component";
+import "./paginator.component";
 
 export class DataTableComponent extends HTMLElement {
     constructor() {
